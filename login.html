@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            height: 100vh;
+            background-color: beige;
+
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+        img:hover{
+            transition: 500ms;
+            transform: rotate(180deg);
+        }
+        .box{
+            width: 20rem;
+            height: 20rem;
+            background-color: gray;
+            text-align: center;
+        }
+        .heading{
+            text-align: center;
+        }
+        label{
+            font-weight: bold;
+        }
+        input{
+            margin-bottom: 20px;
+        }
+        button{
+            border-radius: 5px;
+            background-color: aqua;
+        }
+        button:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="C:\Users\HP\Downloads\png-transparent-thiagarajar-college-of-engineering-anna-university-skp-engineering-college-central-institute-of-plastics-engineering-and-technology-technology-material-miscellaneous-logo-university (2).ico" alt="">
+        <div class="box">
+            <form>
+            <h1 class="heading">Login</h1>
+            <label for="username">Username</label>
+            <input name="username" type="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" required minlength="8"><br>
+            <button type="submit" value="Submit">Login</button><br>
+            <p>New User: <a href="C:\Users\HP\Downloads\signup.html">sign up</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
